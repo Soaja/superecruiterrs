@@ -1,0 +1,768 @@
+{
+  "Metadata": {
+    "title": "Superecruiter — Agencija za zapošljavanje stranih radnika u Srbiji",
+    "description": "Dovodimo proverene strane radnike za hotelijerstvo, logistiku i građevinarstvo. Vize i radne dozvole rešavamo mi. 30–60 dana, garancija 90 dana.",
+    "ogAlt": "Superecruiter — pouzdani radnici iz celog sveta",
+    "ogHeadline": "Pouzdani radnici iz celog sveta.",
+    "ogTagline": "Hotelijerstvo · Logistika · Građevinarstvo",
+    "ogBadge": "30–60 dana · Garancija 90 dana"
+  },
+  "Common": {
+    "skipToContent": "Preskoči na sadržaj",
+    "homeLabel": "SUPERECRUITER — početna",
+    "city": "Beograd, Srbija"
+  },
+  "Header": {
+    "navLabel": "Glavna navigacija",
+    "nav": {
+      "services": "Usluge",
+      "industries": "Industrije",
+      "process": "Kako radimo",
+      "about": "O nama",
+      "faq": "FAQ",
+      "contact": "Kontakt"
+    },
+    "cta": "Zatražite radnike",
+    "openMenu": "Otvori meni",
+    "closeMenu": "Zatvori meni",
+    "languageLabel": "Izbor jezika",
+    "languages": {
+      "sr": "Srpski",
+      "en": "English"
+    }
+  },
+  "Hero": {
+    "eyebrow": "Agencija za zapošljavanje stranih radnika",
+    "title": {
+      "line1": "Pouzdani radnici",
+      "line2": "za",
+      "line3": "iz celog sveta.",
+      "srOnly": "Pouzdani radnici za vaš hotel, restoran, magacin, gradilište ili transport iz celog sveta."
+    },
+    "rotating": {
+      "hotel": {
+        "pronoun": "vaš",
+        "word": "hotel"
+      },
+      "restaurant": {
+        "pronoun": "vaš",
+        "word": "restoran"
+      },
+      "warehouse": {
+        "pronoun": "vaš",
+        "word": "magacin"
+      },
+      "construction": {
+        "pronoun": "vaše",
+        "word": "gradilište"
+      },
+      "transport": {
+        "pronoun": "vaš",
+        "word": "transport"
+      }
+    },
+    "subhead": "Biramo, proveravamo i dovodimo strane radnike u Srbiju. Vize, radne i boravišne dozvole rešavamo mi — vi samo dočekate tim.",
+    "ctaPrimary": "Zatražite radnike",
+    "ctaSecondary": "Pogledajte kako radimo",
+    "socialProof": {
+      "count": "XX",
+      "text": "<b>{count}+</b> poslodavaca u Srbiji nam veruje"
+    },
+    "stage": {
+      "photoAlt": "Kuvar priprema jelo u profesionalnoj kuhinji",
+      "candidate": {
+        "name": "Ramesh K.",
+        "role": "Kuvar",
+        "country": "Nepal",
+        "experience": "5 god. iskustva",
+        "verified": "Proveren"
+      },
+      "visa": {
+        "title": "Radna dozvola",
+        "steps": {
+          "documents": "Dokumenta",
+          "visa": "Viza",
+          "permit": "Dozvola"
+        },
+        "pending": "u obradi",
+        "approved": "odobreno"
+      },
+      "arrival": {
+        "title": "Dolazak u Beograd",
+        "eta": "za 42 dana"
+      },
+      "guarantee": "Garancija 90 dana"
+    },
+    "partners": {
+      "label": "Mreža partnerskih agencija u 6 zemalja",
+      "_todo": "Profili radnika po zemljama — proveriti sa klijentom.",
+      "countries": {
+        "nepal": {
+          "name": "Nepal",
+          "profiles": "kuvari, pomoćni radnici"
+        },
+        "indonesia": {
+          "name": "Indonezija",
+          "profiles": "konobari, sobarice"
+        },
+        "uzbekistan": {
+          "name": "Uzbekistan",
+          "profiles": "građevinari, vozači"
+        },
+        "kenya": {
+          "name": "Kenija",
+          "profiles": "vozači, logistika"
+        },
+        "uae": {
+          "name": "UAE",
+          "profiles": "ugostiteljstvo"
+        },
+        "india": {
+          "name": "Indija",
+          "profiles": "zanatlije, mehaničari"
+        }
+      }
+    }
+  },
+  "Comparison": {
+    "eyebrow": "Zašto Superecruiter",
+    "title": "Dovođenje radnika iz inostranstva, bez glavobolje.",
+    "subtitle": "Pogledajte razliku između toga da sve radite sami i da prepustite nama.",
+    "toggleLabel": "Uporedite načine zapošljavanja",
+    "modes": {
+      "self": "Sami",
+      "super": "Sa Superecruiter-om"
+    },
+    "criterionLabel": "Kriterijum",
+    "rows": {
+      "sourcing": {
+        "label": "Pronalazak kandidata",
+        "self": "Oglasi, posrednici bez garancije, nepoznati CV-jevi",
+        "super": "Mreža partnera u 6 zemalja, kandidati po vašim zahtevima"
+      },
+      "vetting": {
+        "label": "Provera",
+        "self": "Na sreću",
+        "super": "Proveren CV, preporuke i intervju"
+      },
+      "permits": {
+        "label": "Vize i dozvole",
+        "self": "Vi jurite ambasade, MUP i NSZ",
+        "super": "Mi apliciramo i komuniciramo sa institucijama"
+      },
+      "time": {
+        "label": "Vreme do radnika",
+        "self": "Neizvesno, često više meseci",
+        "super": "30–60 dana od izbora kandidata"
+      },
+      "replacement": {
+        "label": "Ako radnik ne odgovara",
+        "self": "Krećete ispočetka",
+        "super": "Besplatna zamena u prvih 90 dana"
+      }
+    },
+    "timeline": {
+      "label": "Vreme do prvog radnog dana",
+      "self": "?",
+      "selfSr": "neizvesno",
+      "super": "30–60 dana"
+    },
+    "guarantee": "Garancija zamene 90 dana",
+    "cta": "Zatražite radnike"
+  },
+  "Industries": {
+    "eyebrow": "Industrije",
+    "title": "Radnici za sektore kojima su najpotrebniji.",
+    "subtitle": "Specijalizovani smo za tri industrije u kojima Srbiji najviše nedostaje radne snage.",
+    "askLink": "Ne vidite poziciju koju tražite? Pitajte nas",
+    "listLabel": "Industrije",
+    "positionsLabel": "Pozicije",
+    "items": {
+      "hospitality": {
+        "title": "Hotelijerstvo i ugostiteljstvo",
+        "description": "Kuhinja, sala i sobe — osoblje koje drži standard vašeg objekta.",
+        "positions": [
+          "Kuvari",
+          "Pomoćni kuvari",
+          "Konobari",
+          "Šankeri",
+          "Sobarice",
+          "Pomoćni radnici"
+        ],
+        "cta": "Zatražite radnike za hotelijerstvo",
+        "photoAlt": "Kuvarica priprema hranu u profesionalnoj kuhinji",
+        "card": {
+          "label": "Najtraženije",
+          "value": "Kuvari",
+          "meter": "Visoka potražnja"
+        }
+      },
+      "logistics": {
+        "title": "Logistika i transport",
+        "description": "Vozači i operativa koji drže vašu robu u pokretu.",
+        "positions": [
+          "Vozači C/CE kategorije",
+          "Vozači autobusa",
+          "Dostavljači",
+          "Kuriri",
+          "Mehaničari"
+        ],
+        "cta": "Zatražite radnike za logistiku",
+        "photoAlt": "Kamion na otvorenom putu",
+        "card": {
+          "value": "Vozači · CE kategorija",
+          "badge": "Proveren"
+        }
+      },
+      "construction": {
+        "title": "Građevinarstvo",
+        "description": "Zanatlije i radnici za gradilišta koja ne smeju da stanu.",
+        "positions": [
+          "Zidari",
+          "Gipsari",
+          "Bravari",
+          "Armirači",
+          "Zanatlije",
+          "Pomoćni radnici"
+        ],
+        "cta": "Zatražite radnike za građevinarstvo",
+        "photoAlt": "Građevinski radnik sa zaštitnom opremom na gradilištu",
+        "card": {
+          "value": "Tim od 12 radnika",
+          "label": "Spremni za dolazak"
+        }
+      }
+    }
+  },
+  "Process": {
+    "eyebrow": "Kako radimo",
+    "title": "Od zahteva do prvog radnog dana.",
+    "subtitle": "Šest jasnih koraka. Vi donosite odluke — mi vodimo ceo proces.",
+    "stepsLabel": "Koraci procesa",
+    "stepOf": "Korak {current} od {total}",
+    "steps": {
+      "request": {
+        "title": "Zahtev",
+        "text": "Definišete pozicije, broj radnika, uslove i rok. Za 24h dobijate plan i ponudu."
+      },
+      "selection": {
+        "title": "Selekcija",
+        "text": "Partnerske agencije biraju kandidate po vašim zahtevima. Mi proveravamo CV, iskustvo i preporuke."
+      },
+      "interview": {
+        "title": "Intervju i izbor",
+        "text": "Razgovarate sa kandidatima putem video poziva. Konačnu odluku donosite vi."
+      },
+      "permits": {
+        "title": "Vize i dozvole",
+        "text": "Apliciramo za vizu i jedinstvenu dozvolu za boravak i rad i komuniciramo sa svim institucijama umesto vas."
+      },
+      "arrival": {
+        "title": "Dolazak",
+        "text": "Radnik stiže u Srbiju 30–60 dana od izbora. Dočekujemo ga i pomažemo oko prvih koraka."
+      },
+      "support": {
+        "title": "Podrška i garancija",
+        "text": "Pratimo adaptaciju. Ako radnik ne odgovara, zamenu obezbeđujemo besplatno u prvih 90 dana."
+      }
+    },
+    "scenes": {
+      "request": {
+        "title": "Novi zahtev",
+        "fields": {
+          "industry": {
+            "label": "Industrija",
+            "value": "Hotelijerstvo"
+          },
+          "position": {
+            "label": "Pozicija",
+            "value": "Kuvar"
+          },
+          "count": {
+            "label": "Broj radnika",
+            "value": "6"
+          },
+          "start": {
+            "label": "Početak",
+            "value": "Mart"
+          }
+        },
+        "submit": "Pošalji zahtev",
+        "sent": "Primljeno"
+      },
+      "selection": {
+        "title": "Uži izbor",
+        "subtitle": "Kuvar · 6 pozicija",
+        "verified": "Proveren",
+        "years": "{n} god. iskustva",
+        "candidates": [
+          {
+            "name": "Ramesh K.",
+            "role": "Kuvar",
+            "country": "nepal",
+            "years": 5,
+            "initials": "RK"
+          },
+          {
+            "name": "Budi S.",
+            "role": "Kuvar",
+            "country": "indonesia",
+            "years": 4,
+            "initials": "BS"
+          },
+          {
+            "name": "Aziz T.",
+            "role": "Pomoćni kuvar",
+            "country": "uzbekistan",
+            "years": 7,
+            "initials": "AT"
+          },
+          {
+            "name": "Ravi P.",
+            "role": "Kuvar",
+            "country": "india",
+            "years": 3,
+            "initials": "RP"
+          }
+        ]
+      },
+      "interview": {
+        "name": "Ramesh K.",
+        "location": "Katmandu, Nepal",
+        "you": "Vi",
+        "duration": "12:48",
+        "live": "Video intervju",
+        "selected": "Izabran"
+      },
+      "permits": {
+        "title": "Dokumentacija",
+        "items": {
+          "passport": "Pasoš",
+          "contract": "Ugovor o radu",
+          "visa": "Viza D",
+          "permit": "Jedinstvena dozvola"
+        },
+        "pending": "u obradi",
+        "stamp": "ODOBRENO"
+      },
+      "arrival": {
+        "label": "Boarding pass",
+        "passenger": "Putnik",
+        "passengerName": "Ramesh K.",
+        "from": {
+          "code": "KTM",
+          "city": "Katmandu"
+        },
+        "to": {
+          "code": "BEG",
+          "city": "Beograd"
+        },
+        "date": "Datum",
+        "dateValue": "14. mart",
+        "gate": "Izlaz",
+        "gateValue": "B12",
+        "flight": "Let",
+        "flightValue": "SR 612"
+      },
+      "support": {
+        "days": "90",
+        "daysLabel": "dana",
+        "guarantee": "Garancija zamene",
+        "us": "Superecruiter",
+        "them": "Poslodavac",
+        "question": "Kako ide prva nedelja?",
+        "answer": "Odlično, tim je super! 👍"
+      }
+    },
+    "cta": {
+      "title": "Spremni da krenemo?",
+      "primary": "Zatražite radnike",
+      "call": "Pozovite nas: {phone}"
+    }
+  },
+  "Network": {
+    "eyebrow": "Naša mreža",
+    "title": "Šest zemalja. Jedan partner u Srbiji.",
+    "subtitle": "Proverene partnerske agencije u Aziji, Africi i na Bliskom istoku — i tim u Beogradu koji vodi sve do kraja.",
+    "map": {
+      "label": "Partnerska mreža",
+      "count": "6 zemalja",
+      "hq": "Beograd · HQ",
+      "chipsLabel": "Izaberite zemlju",
+      "profilesLabel": "Tipični profili:",
+      "languagesLabel": "Jezici:",
+      "request": "Zatražite radnike {from}"
+    },
+    "_todo_countries": "TODO: profili (Hero.partners) i jezici — proveriti sa klijentom.",
+    "countries": {
+      "nepal": {
+        "name": "Nepal",
+        "city": "Katmandu",
+        "from": "iz Nepala",
+        "languages": "engleski + nepalski, hindi"
+      },
+      "indonesia": {
+        "name": "Indonezija",
+        "city": "Džakarta",
+        "from": "iz Indonezije",
+        "languages": "engleski + indonežanski"
+      },
+      "uzbekistan": {
+        "name": "Uzbekistan",
+        "city": "Taškent",
+        "from": "iz Uzbekistana",
+        "languages": "ruski, engleski + uzbečki"
+      },
+      "kenya": {
+        "name": "Kenija",
+        "city": "Najrobi",
+        "from": "iz Kenije",
+        "languages": "engleski + svahili"
+      },
+      "uae": {
+        "name": "UAE",
+        "city": "Dubai",
+        "from": "iz UAE",
+        "languages": "engleski + arapski"
+      },
+      "india": {
+        "name": "Indija",
+        "city": "Nju Delhi",
+        "from": "iz Indije",
+        "languages": "engleski + hindi"
+      }
+    },
+    "_todo_stats": "TODO: zameniti XX/XXX stvarnim brojevima od klijenta. Ako klijent nema podatak za 'retention', zameniti tu statistiku.",
+    "stats": {
+      "arrival": {
+        "value": "30–60",
+        "label": "dana od izbora do dolaska"
+      },
+      "workers": {
+        "value": "XXX+",
+        "label": "dovedenih radnika"
+      },
+      "employers": {
+        "value": "XX+",
+        "label": "poslodavaca u Srbiji"
+      },
+      "retention": {
+        "value": "XX%",
+        "label": "kandidata ostaje duže od godinu dana"
+      }
+    },
+    "guarantee": {
+      "value": "90 dana",
+      "text": "Besplatna zamena ako radnik ne odgovara.",
+      "link": "Kako funkcioniše garancija"
+    }
+  },
+  "Services": {
+    "eyebrow": "Više od regrutacije",
+    "title": "HR podrška kada vam zatreba.",
+    "subtitle": "Pored dovođenja stranih radnika, pomažemo da vaš tim radi bolje.",
+    "listLabel": "Dodatne HR usluge",
+    "items": {
+      "headhunting": {
+        "title": "Head hunting",
+        "text": "Pronalazimo kadrove za menadžerske i stručne pozicije."
+      },
+      "audit": {
+        "title": "HR revizija",
+        "text": "Operativne procedure i standardi kvaliteta koji štede vreme i troškove."
+      },
+      "mystery": {
+        "title": "Mystery Guest",
+        "text": "Proveravamo da li se standardi poštuju tamo gde gosti najčešće imaju primedbe."
+      },
+      "training": {
+        "title": "Trening osoblja",
+        "text": "Obuke za profesionalno rešavanje problema i žalbi."
+      },
+      "payroll": {
+        "title": "Obračun zarada",
+        "text": "Kompletan outsourcing obračuna plata."
+      }
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Iskustva poslodavaca",
+    "title": "Šta kažu firme koje su sa nama izgradile tim.",
+    "carouselLabel": "Iskustva poslodavaca",
+    "slideLabel": "{current} od {total}",
+    "prev": "Prethodno iskustvo",
+    "next": "Sledeće iskustvo",
+    "logosLabel": "Poverenje nam ukazuju",
+    "_todo": "TODO: sva tri iskustva, fotografije i logotipi su PLACEHOLDER — klijent dostavlja prave.",
+    "items": [
+      {
+        "quote": "Posle meseci bezuspešnog traženja kuvara, Superecruiter nam je za šest nedelja doveo ceo tim. Papirologiju nismo ni videli.",
+        "name": "Ime Prezime",
+        "role": "Vlasnik",
+        "company": "Restoran XYZ",
+        "city": "Beograd",
+        "initials": "IP",
+        "photoAlt": "Kuvar u profesionalnoj kuhinji",
+        "result": {
+          "title": "6 kuvara · 45 dana",
+          "meta": "Nepal"
+        }
+      },
+      {
+        "quote": "Trebalo nam je dvanaest građevinara pred početak sezone. Dobili smo proverene ljude, a sve dozvole su bile završene na vreme.",
+        "name": "Ime Prezime",
+        "role": "Direktor",
+        "company": "Građevinska firma XYZ",
+        "city": "Novi Sad",
+        "initials": "IP",
+        "photoAlt": "Građevinski radnici na gradilištu",
+        "result": {
+          "title": "12 građevinara · Uzbekistan",
+          "badge": "Proveren"
+        }
+      },
+      {
+        "quote": "Vozači su stigli spremni za rad, sa svim dokumentima. Komunikacija je bila jasna od prvog dana do danas.",
+        "name": "Ime Prezime",
+        "role": "HR menadžer",
+        "company": "Logistika XYZ",
+        "city": "Beograd",
+        "initials": "IP",
+        "photoAlt": "Magacin sa paletama robe",
+        "result": {
+          "title": "4 vozača CE · Kenija",
+          "meta": "Garancija iskorišćena: 0"
+        }
+      }
+    ],
+    "logos": [
+      "Klijent A",
+      "Klijent B",
+      "Klijent C",
+      "Klijent D",
+      "Klijent E",
+      "Klijent F"
+    ]
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Pitanja koja nam poslodavci najčešće postave.",
+    "contact": {
+      "title": "Niste našli odgovor?",
+      "text": "Javite nam se — odgovaramo u roku od 24h.",
+      "primary": "Pošaljite upit",
+      "available": "Dostupni smo",
+      "consultant": "Konsultant"
+    },
+    "_todo": "TODO: odgovor na pitanje 6 (obaveze poslodavca) proveriti sa klijentom.",
+    "items": [
+      {
+        "q": "Koliko traje ceo postupak?",
+        "a": "Od trenutka kada izaberete kandidata do njegovog dolaska u Srbiju obično prođe 30 do 60 dana."
+      },
+      {
+        "q": "Kako znam da je kandidat prava osoba za posao?",
+        "a": "Partnerske agencije strogo prate vaše zahteve, a mi proveravamo CV, iskustvo i preporuke. Sa kandidatima razgovarate pre konačne odluke."
+      },
+      {
+        "q": "Šta ako radnik ne odgovara?",
+        "a": "U prvih 90 dana obezbeđujemo zamenu besplatno."
+      },
+      {
+        "q": "Ko se bavi vizama i dozvolama?",
+        "a": "Mi. Apliciramo za vizu i dozvolu za boravak i rad i komuniciramo sa ambasadama, MUP-om i Nacionalnom službom za zapošljavanje umesto vas."
+      },
+      {
+        "q": "Na kom jeziku će radnici komunicirati?",
+        "a": "U početku na engleskom, koji je uslov za izbor, a vremenom uče i srpski."
+      },
+      {
+        "q": "Šta poslodavac treba da obezbedi?",
+        "a": "Ugovor o radu u skladu sa zakonom, pristojan smeštaj i osnovne uslove za život (uključujući internet). Sve detalje dogovaramo na početku."
+      },
+      {
+        "q": "Iz kojih zemalja dolaze radnici?",
+        "a": "Iz Nepala, Indonezije, Uzbekistana, Kenije, UAE i Indije — preko proverenih partnerskih agencija."
+      },
+      {
+        "q": "Koliko košta dovođenje stranih radnika?",
+        "a": "Cena zavisi od broja radnika, pozicija i rokova. Pošaljite upit i dobićete ponudu prilagođenu vama."
+      }
+    ]
+  },
+  "Contact": {
+    "eyebrow": "Kontakt",
+    "title": "Recite nam koga tražite — mi ćemo ih dovesti.",
+    "subtitle": "Popunite upit za manje od minut. Odgovaramo u roku od 24h sa planom i ponudom.",
+    "stepOf": "Korak {current} od {total}",
+    "back": "Nazad",
+    "next": "Dalje",
+    "submit": "Pošaljite upit",
+    "sending": "Šaljemo…",
+    "required": "obavezno",
+    "steps": {
+      "industry": {
+        "title": "Industrija",
+        "legend": "U kojoj industriji su vam potrebni radnici?"
+      },
+      "positions": {
+        "title": "Pozicije i broj radnika",
+        "legend": "Koje pozicije popunjavate?"
+      },
+      "timeline": {
+        "title": "Rok",
+        "legend": "Kada su vam potrebni radnici?"
+      },
+      "contact": {
+        "title": "Kontakt podaci",
+        "legend": "Kako da vas kontaktiramo?"
+      }
+    },
+    "industries": {
+      "hospitality": "Hotelijerstvo i ugostiteljstvo",
+      "logistics": "Logistika i transport",
+      "construction": "Građevinarstvo",
+      "other": "Nešto drugo"
+    },
+    "industryHints": {
+      "hospitality": "Kuvari, konobari, sobarice…",
+      "logistics": "Vozači, kuriri, mehaničari…",
+      "construction": "Zidari, bravari, armirači…",
+      "other": "Opišite poziciju u sledećem koraku"
+    },
+    "positionsHint": "Možete izabrati više pozicija.",
+    "otherPosition": "Druga pozicija",
+    "otherPositionPlaceholder": "Upišite poziciju",
+    "count": "Broj radnika",
+    "decrease": "Smanji broj radnika",
+    "increase": "Povećaj broj radnika",
+    "country": "Željena zemlja porekla",
+    "optional": "opciono",
+    "countries": {
+      "none": "Bez preference",
+      "nepal": "Nepal",
+      "indonesia": "Indonezija",
+      "uzbekistan": "Uzbekistan",
+      "kenya": "Kenija",
+      "uae": "UAE",
+      "india": "Indija"
+    },
+    "timelines": {
+      "asap": "Što pre",
+      "1-2": "Za 1–2 meseca",
+      "3-6": "Za 3–6 meseci",
+      "season": "Planiramo za sezonu"
+    },
+    "timelineHints": {
+      "asap": "Proces traje 30–60 dana od izbora kandidata — javite se odmah da proverimo izvodljivost.",
+      "other": "Odlično, imamo dovoljno vremena za pažljivu selekciju."
+    },
+    "fields": {
+      "name": "Ime i prezime",
+      "company": "Firma",
+      "city": "Grad",
+      "phone": "Telefon",
+      "email": "Email",
+      "message": "Poruka",
+      "messagePlaceholder": "Smeštaj, smene, posebni zahtevi…",
+      "consent": "Saglasan/na sam sa obradom podataka u skladu sa <link>Politikom privatnosti</link>",
+      "honeypot": "Ostavite ovo polje prazno"
+    },
+    "errors": {
+      "required": "Ovo polje je obavezno.",
+      "email": "Unesite ispravnu email adresu.",
+      "phone": "Unesite ispravan broj telefona.",
+      "consent": "Potrebna je vaša saglasnost.",
+      "positions": "Izaberite bar jednu poziciju.",
+      "count": "Unesite broj između 1 i 100."
+    },
+    "summary": {
+      "title": "Vaš upit",
+      "industry": "Industrija",
+      "positions": "Pozicije",
+      "count": "Broj radnika",
+      "country": "Zemlja",
+      "timeline": "Rok",
+      "contact": "Kontakt",
+      "service": "Usluga",
+      "workers": "{count, plural, one {# radnik} few {# radnika} other {# radnika}}",
+      "sent": "Poslato",
+      "perks": {
+        "reply": "Odgovor u roku od 24h",
+        "guarantee": "Garancija zamene 90 dana",
+        "free": "Bez obaveze — ponuda je besplatna"
+      },
+      "mobileLabel": "Vaš upit",
+      "mobileEmpty": "Još niste ništa izabrali",
+      "expand": "Prikaži ceo upit",
+      "collapse": "Sakrij upit"
+    },
+    "direct": {
+      "title": "Ili nas kontaktirajte direktno",
+      "whatsapp": "WhatsApp",
+      "viber": "Viber"
+    },
+    "success": {
+      "title": "Hvala, {name}! Upit je primljen.",
+      "text": "Javićemo vam se u roku od 24h.",
+      "again": "Pošaljite novi upit"
+    },
+    "failure": {
+      "title": "Ups — upit nije poslat.",
+      "text": "Nešto nije u redu sa slanjem. Pokušajte ponovo ili nas pozovite direktno.",
+      "rate": "Poslali ste više upita u kratkom roku. Pokušajte ponovo za nekoliko minuta ili nas pozovite.",
+      "retry": "Pokušajte ponovo"
+    },
+    "email": {
+      "subject": "Novi upit: {company} — {industry}",
+      "heading": "Novi upit sa sajta",
+      "service": "Usluga (sa sajta)",
+      "message": "Poruka",
+      "locale": "Jezik sajta",
+      "replySubject": "Primili smo vaš upit — Superecruiter",
+      "replyGreeting": "Poštovani/a {name},",
+      "replyBody": "hvala na upitu. Javićemo vam se u roku od 24h sa planom i ponudom.",
+      "replySignature": "Tim Superecruiter"
+    }
+  },
+  "Footer": {
+    "description": "Agencija za zapošljavanje stranih radnika. Selekcija, vize i dozvole — sve na jednom mestu.",
+    "social": "Društvene mreže",
+    "columns": {
+      "nav": "Navigacija",
+      "industries": "Industrije",
+      "contact": "Kontakt"
+    },
+    "nav": {
+      "services": "Usluge",
+      "industries": "Industrije",
+      "process": "Kako radimo",
+      "network": "Mreža",
+      "references": "Reference",
+      "faq": "FAQ",
+      "contact": "Kontakt"
+    },
+    "hours": "Pon–Pet 09–17h",
+    "copyright": "© {year} Superecruiter. Sva prava zadržana.",
+    "pib": "PIB: TODO",
+    "mb": "MB: TODO",
+    "license": "Licenca za posredovanje u zapošljavanju br. TODO",
+    "legal": {
+      "privacy": "Politika privatnosti",
+      "terms": "Uslovi korišćenja",
+      "cookies": "Kolačići"
+    },
+    "toTop": "Nazad na vrh"
+  },
+  "Legal": {
+    "pending": "Sadržaj u pripremi",
+    "pendingText": "Ova stranica će uskoro biti dostupna. Za sva pitanja pišite nam na {email}.",
+    "back": "Nazad na početnu",
+    "privacy": {
+      "title": "Politika privatnosti"
+    },
+    "terms": {
+      "title": "Uslovi korišćenja"
+    }
+  }
+}

@@ -1,0 +1,768 @@
+{
+  "Metadata": {
+    "title": "Superecruiter — Foreign Workforce Recruitment Agency in Serbia",
+    "description": "We bring vetted foreign workers for hospitality, logistics and construction. We handle visas and work permits. 30–60 days, 90-day guarantee.",
+    "ogAlt": "Superecruiter — reliable workers from around the world",
+    "ogHeadline": "Reliable workers from around the world.",
+    "ogTagline": "Hospitality · Logistics · Construction",
+    "ogBadge": "30–60 days · 90-day guarantee"
+  },
+  "Common": {
+    "skipToContent": "Skip to content",
+    "homeLabel": "SUPERECRUITER — home",
+    "city": "Belgrade, Serbia"
+  },
+  "Header": {
+    "navLabel": "Main navigation",
+    "nav": {
+      "services": "Services",
+      "industries": "Industries",
+      "process": "How we work",
+      "about": "About us",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "cta": "Request workers",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageLabel": "Choose language",
+    "languages": {
+      "sr": "Srpski",
+      "en": "English"
+    }
+  },
+  "Hero": {
+    "eyebrow": "Foreign worker recruitment agency",
+    "title": {
+      "line1": "Reliable workers",
+      "line2": "for",
+      "line3": "from around the world.",
+      "srOnly": "Reliable workers for your hotel, kitchen, logistics, worksite or fleet from around the world."
+    },
+    "rotating": {
+      "hotel": {
+        "pronoun": "your",
+        "word": "hotel"
+      },
+      "restaurant": {
+        "pronoun": "your",
+        "word": "kitchen"
+      },
+      "warehouse": {
+        "pronoun": "your",
+        "word": "logistics"
+      },
+      "construction": {
+        "pronoun": "your",
+        "word": "worksite"
+      },
+      "transport": {
+        "pronoun": "your",
+        "word": "fleet"
+      }
+    },
+    "subhead": "We select, vet and bring foreign workers to Serbia. Visas, work and residence permits are on us — you just welcome the team.",
+    "ctaPrimary": "Request workers",
+    "ctaSecondary": "See how we work",
+    "socialProof": {
+      "count": "XX",
+      "text": "<b>{count}+</b> employers in Serbia trust us"
+    },
+    "stage": {
+      "photoAlt": "A chef plating a dish in a professional kitchen",
+      "candidate": {
+        "name": "Ramesh K.",
+        "role": "Cook",
+        "country": "Nepal",
+        "experience": "5 yrs experience",
+        "verified": "Verified"
+      },
+      "visa": {
+        "title": "Work permit",
+        "steps": {
+          "documents": "Documents",
+          "visa": "Visa",
+          "permit": "Permit"
+        },
+        "pending": "in progress",
+        "approved": "approved"
+      },
+      "arrival": {
+        "title": "Arrival in Belgrade",
+        "eta": "in 42 days"
+      },
+      "guarantee": "90-day guarantee"
+    },
+    "partners": {
+      "label": "Partner agency network in 6 countries",
+      "_todo": "Worker profiles per country — verify with the client.",
+      "countries": {
+        "nepal": {
+          "name": "Nepal",
+          "profiles": "cooks, general workers"
+        },
+        "indonesia": {
+          "name": "Indonesia",
+          "profiles": "waiters, housekeepers"
+        },
+        "uzbekistan": {
+          "name": "Uzbekistan",
+          "profiles": "builders, drivers"
+        },
+        "kenya": {
+          "name": "Kenya",
+          "profiles": "drivers, logistics"
+        },
+        "uae": {
+          "name": "UAE",
+          "profiles": "hospitality"
+        },
+        "india": {
+          "name": "India",
+          "profiles": "tradespeople, mechanics"
+        }
+      }
+    }
+  },
+  "Comparison": {
+    "eyebrow": "Why Superecruiter",
+    "title": "Hiring workers from abroad, without the headache.",
+    "subtitle": "See the difference between doing it all yourself and leaving it to us.",
+    "toggleLabel": "Compare ways of hiring",
+    "modes": {
+      "self": "On your own",
+      "super": "With Superecruiter"
+    },
+    "criterionLabel": "Criterion",
+    "rows": {
+      "sourcing": {
+        "label": "Finding candidates",
+        "self": "Job ads, intermediaries with no guarantee, unknown CVs",
+        "super": "Partner network in 6 countries, candidates matched to your requirements"
+      },
+      "vetting": {
+        "label": "Vetting",
+        "self": "Down to luck",
+        "super": "Verified CV, references and interview"
+      },
+      "permits": {
+        "label": "Visas & permits",
+        "self": "You chase embassies, the Ministry of Interior and the Employment Service",
+        "super": "We apply and handle all communication with institutions"
+      },
+      "time": {
+        "label": "Time to worker",
+        "self": "Uncertain, often several months",
+        "super": "30–60 days from candidate selection"
+      },
+      "replacement": {
+        "label": "If a worker isn't a fit",
+        "self": "You start from scratch",
+        "super": "Free replacement within the first 90 days"
+      }
+    },
+    "timeline": {
+      "label": "Time to first working day",
+      "self": "?",
+      "selfSr": "uncertain",
+      "super": "30–60 days"
+    },
+    "guarantee": "90-day replacement guarantee",
+    "cta": "Request workers"
+  },
+  "Industries": {
+    "eyebrow": "Industries",
+    "title": "Workers for the sectors that need them most.",
+    "subtitle": "We specialise in the three industries facing Serbia's biggest labour shortages.",
+    "askLink": "Don't see the position you need? Ask us",
+    "listLabel": "Industries",
+    "positionsLabel": "Positions",
+    "items": {
+      "hospitality": {
+        "title": "Hospitality & food service",
+        "description": "Kitchen, floor and rooms — staff who keep your venue's standard.",
+        "positions": [
+          "Cooks",
+          "Kitchen assistants",
+          "Waiters",
+          "Bartenders",
+          "Housekeepers",
+          "General workers"
+        ],
+        "cta": "Request hospitality workers",
+        "photoAlt": "A cook preparing food in a professional kitchen",
+        "card": {
+          "label": "Most requested",
+          "value": "Cooks",
+          "meter": "High demand"
+        }
+      },
+      "logistics": {
+        "title": "Logistics & transport",
+        "description": "Drivers and operations staff who keep your goods moving.",
+        "positions": [
+          "C/CE category drivers",
+          "Bus drivers",
+          "Delivery drivers",
+          "Couriers",
+          "Mechanics"
+        ],
+        "cta": "Request logistics workers",
+        "photoAlt": "A truck on an open road",
+        "card": {
+          "value": "Drivers · CE category",
+          "badge": "Verified"
+        }
+      },
+      "construction": {
+        "title": "Construction",
+        "description": "Tradespeople and workers for sites that can't afford to stop.",
+        "positions": [
+          "Bricklayers",
+          "Drywall installers",
+          "Metalworkers",
+          "Rebar fixers",
+          "Tradespeople",
+          "General workers"
+        ],
+        "cta": "Request construction workers",
+        "photoAlt": "A construction worker in protective gear on site",
+        "card": {
+          "value": "Team of 12 workers",
+          "label": "Ready to travel"
+        }
+      }
+    }
+  },
+  "Process": {
+    "eyebrow": "How we work",
+    "title": "From request to first working day.",
+    "subtitle": "Six clear steps. You make the decisions — we run the whole process.",
+    "stepsLabel": "Process steps",
+    "stepOf": "Step {current} of {total}",
+    "steps": {
+      "request": {
+        "title": "Request",
+        "text": "You define the positions, number of workers, conditions and deadline. Within 24h you get a plan and an offer."
+      },
+      "selection": {
+        "title": "Selection",
+        "text": "Partner agencies pick candidates to your requirements. We verify CVs, experience and references."
+      },
+      "interview": {
+        "title": "Interview & choice",
+        "text": "You talk to candidates over video call. The final decision is yours."
+      },
+      "permits": {
+        "title": "Visas & permits",
+        "text": "We apply for the visa and the single residence and work permit, and handle all communication with institutions for you."
+      },
+      "arrival": {
+        "title": "Arrival",
+        "text": "The worker arrives in Serbia 30–60 days after selection. We welcome them and help with the first steps."
+      },
+      "support": {
+        "title": "Support & guarantee",
+        "text": "We follow the adaptation. If a worker isn't a fit, we provide a free replacement within the first 90 days."
+      }
+    },
+    "scenes": {
+      "request": {
+        "title": "New request",
+        "fields": {
+          "industry": {
+            "label": "Industry",
+            "value": "Hospitality"
+          },
+          "position": {
+            "label": "Position",
+            "value": "Cook"
+          },
+          "count": {
+            "label": "Workers",
+            "value": "6"
+          },
+          "start": {
+            "label": "Start",
+            "value": "March"
+          }
+        },
+        "submit": "Send request",
+        "sent": "Received"
+      },
+      "selection": {
+        "title": "Shortlist",
+        "subtitle": "Cook · 6 positions",
+        "verified": "Verified",
+        "years": "{n} yrs experience",
+        "candidates": [
+          {
+            "name": "Ramesh K.",
+            "role": "Cook",
+            "country": "nepal",
+            "years": 5,
+            "initials": "RK"
+          },
+          {
+            "name": "Budi S.",
+            "role": "Cook",
+            "country": "indonesia",
+            "years": 4,
+            "initials": "BS"
+          },
+          {
+            "name": "Aziz T.",
+            "role": "Kitchen assistant",
+            "country": "uzbekistan",
+            "years": 7,
+            "initials": "AT"
+          },
+          {
+            "name": "Ravi P.",
+            "role": "Cook",
+            "country": "india",
+            "years": 3,
+            "initials": "RP"
+          }
+        ]
+      },
+      "interview": {
+        "name": "Ramesh K.",
+        "location": "Kathmandu, Nepal",
+        "you": "You",
+        "duration": "12:48",
+        "live": "Video interview",
+        "selected": "Selected"
+      },
+      "permits": {
+        "title": "Documents",
+        "items": {
+          "passport": "Passport",
+          "contract": "Employment contract",
+          "visa": "D visa",
+          "permit": "Single permit"
+        },
+        "pending": "in progress",
+        "stamp": "APPROVED"
+      },
+      "arrival": {
+        "label": "Boarding pass",
+        "passenger": "Passenger",
+        "passengerName": "Ramesh K.",
+        "from": {
+          "code": "KTM",
+          "city": "Kathmandu"
+        },
+        "to": {
+          "code": "BEG",
+          "city": "Belgrade"
+        },
+        "date": "Date",
+        "dateValue": "14 March",
+        "gate": "Gate",
+        "gateValue": "B12",
+        "flight": "Flight",
+        "flightValue": "SR 612"
+      },
+      "support": {
+        "days": "90",
+        "daysLabel": "days",
+        "guarantee": "Replacement guarantee",
+        "us": "Superecruiter",
+        "them": "Employer",
+        "question": "How's the first week going?",
+        "answer": "Great, the team is awesome! 👍"
+      }
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "primary": "Request workers",
+      "call": "Call us: {phone}"
+    }
+  },
+  "Network": {
+    "eyebrow": "Our network",
+    "title": "Six countries. One partner in Serbia.",
+    "subtitle": "Vetted partner agencies across Asia, Africa and the Middle East — and a Belgrade team that sees everything through.",
+    "map": {
+      "label": "Partner network",
+      "count": "6 countries",
+      "hq": "Belgrade · HQ",
+      "chipsLabel": "Choose a country",
+      "profilesLabel": "Typical profiles:",
+      "languagesLabel": "Languages:",
+      "request": "Request workers {from}"
+    },
+    "_todo_countries": "TODO: profiles (Hero.partners) and languages — verify with the client.",
+    "countries": {
+      "nepal": {
+        "name": "Nepal",
+        "city": "Kathmandu",
+        "from": "from Nepal",
+        "languages": "English + Nepali, Hindi"
+      },
+      "indonesia": {
+        "name": "Indonesia",
+        "city": "Jakarta",
+        "from": "from Indonesia",
+        "languages": "English + Indonesian"
+      },
+      "uzbekistan": {
+        "name": "Uzbekistan",
+        "city": "Tashkent",
+        "from": "from Uzbekistan",
+        "languages": "Russian, English + Uzbek"
+      },
+      "kenya": {
+        "name": "Kenya",
+        "city": "Nairobi",
+        "from": "from Kenya",
+        "languages": "English + Swahili"
+      },
+      "uae": {
+        "name": "UAE",
+        "city": "Dubai",
+        "from": "from the UAE",
+        "languages": "English + Arabic"
+      },
+      "india": {
+        "name": "India",
+        "city": "New Delhi",
+        "from": "from India",
+        "languages": "English + Hindi"
+      }
+    },
+    "_todo_stats": "TODO: replace XX/XXX with real numbers from the client. If the client has no retention data, swap that stat.",
+    "stats": {
+      "arrival": {
+        "value": "30–60",
+        "label": "days from selection to arrival"
+      },
+      "workers": {
+        "value": "XXX+",
+        "label": "workers placed"
+      },
+      "employers": {
+        "value": "XX+",
+        "label": "employers in Serbia"
+      },
+      "retention": {
+        "value": "XX%",
+        "label": "of candidates stay longer than a year"
+      }
+    },
+    "guarantee": {
+      "value": "90 days",
+      "text": "Free replacement if a worker isn't a fit.",
+      "link": "How the guarantee works"
+    }
+  },
+  "Services": {
+    "eyebrow": "More than recruitment",
+    "title": "HR support when you need it.",
+    "subtitle": "Beyond bringing in foreign workers, we help your team work better.",
+    "listLabel": "Additional HR services",
+    "items": {
+      "headhunting": {
+        "title": "Head hunting",
+        "text": "We find people for management and specialist positions."
+      },
+      "audit": {
+        "title": "HR audit",
+        "text": "Operating procedures and quality standards that save time and money."
+      },
+      "mystery": {
+        "title": "Mystery Guest",
+        "text": "We check that standards hold where guests most often complain."
+      },
+      "training": {
+        "title": "Staff training",
+        "text": "Training in handling problems and complaints professionally."
+      },
+      "payroll": {
+        "title": "Payroll",
+        "text": "Fully outsourced payroll processing."
+      }
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Employer stories",
+    "title": "What companies that built their team with us say.",
+    "carouselLabel": "Employer stories",
+    "slideLabel": "{current} of {total}",
+    "prev": "Previous story",
+    "next": "Next story",
+    "logosLabel": "Trusted by",
+    "_todo": "TODO: all three stories, photos and logos are PLACEHOLDERS — the client will provide real ones.",
+    "items": [
+      {
+        "quote": "After months of searching for cooks without success, Superecruiter brought us a whole team in six weeks. We never even saw the paperwork.",
+        "name": "First Last",
+        "role": "Owner",
+        "company": "Restaurant XYZ",
+        "city": "Belgrade",
+        "initials": "FL",
+        "photoAlt": "A cook in a professional kitchen",
+        "result": {
+          "title": "6 cooks · 45 days",
+          "meta": "Nepal"
+        }
+      },
+      {
+        "quote": "We needed twelve construction workers before the season started. We got vetted people, and every permit was done on time.",
+        "name": "First Last",
+        "role": "Director",
+        "company": "Construction company XYZ",
+        "city": "Novi Sad",
+        "initials": "FL",
+        "photoAlt": "Construction workers on site",
+        "result": {
+          "title": "12 builders · Uzbekistan",
+          "badge": "Verified"
+        }
+      },
+      {
+        "quote": "The drivers arrived ready to work, with all their documents. Communication has been clear from day one.",
+        "name": "First Last",
+        "role": "HR manager",
+        "company": "Logistics XYZ",
+        "city": "Belgrade",
+        "initials": "FL",
+        "photoAlt": "A warehouse with pallets of goods",
+        "result": {
+          "title": "4 CE drivers · Kenya",
+          "meta": "Guarantee used: 0"
+        }
+      }
+    ],
+    "logos": [
+      "Client A",
+      "Client B",
+      "Client C",
+      "Client D",
+      "Client E",
+      "Client F"
+    ]
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions employers ask us most often.",
+    "contact": {
+      "title": "Didn't find your answer?",
+      "text": "Get in touch — we reply within 24h.",
+      "primary": "Send an enquiry",
+      "available": "We're available",
+      "consultant": "Consultant"
+    },
+    "_todo": "TODO: verify answer 6 (employer obligations) with the client.",
+    "items": [
+      {
+        "q": "How long does the whole process take?",
+        "a": "From the moment you choose a candidate to their arrival in Serbia, it usually takes 30 to 60 days."
+      },
+      {
+        "q": "How do I know a candidate is right for the job?",
+        "a": "Partner agencies follow your requirements closely, and we verify CVs, experience and references. You talk to candidates before the final decision."
+      },
+      {
+        "q": "What if a worker isn't a fit?",
+        "a": "Within the first 90 days we provide a replacement free of charge."
+      },
+      {
+        "q": "Who handles visas and permits?",
+        "a": "We do. We apply for the visa and the residence and work permit, and deal with embassies, the Ministry of Interior and the National Employment Service on your behalf."
+      },
+      {
+        "q": "What language will the workers speak?",
+        "a": "English at first — it's a selection requirement — and over time they learn Serbian too."
+      },
+      {
+        "q": "What does the employer need to provide?",
+        "a": "An employment contract in line with the law, decent accommodation and basic living conditions (including internet). We agree on all the details at the start."
+      },
+      {
+        "q": "Which countries do the workers come from?",
+        "a": "Nepal, Indonesia, Uzbekistan, Kenya, the UAE and India — through vetted partner agencies."
+      },
+      {
+        "q": "How much does it cost to bring in foreign workers?",
+        "a": "The price depends on the number of workers, the positions and the timeline. Send an enquiry and you'll get an offer tailored to you."
+      }
+    ]
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "title": "Tell us who you're looking for — we'll bring them.",
+    "subtitle": "Fill in the enquiry in under a minute. We reply within 24h with a plan and an offer.",
+    "stepOf": "Step {current} of {total}",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Send enquiry",
+    "sending": "Sending…",
+    "required": "required",
+    "steps": {
+      "industry": {
+        "title": "Industry",
+        "legend": "Which industry do you need workers for?"
+      },
+      "positions": {
+        "title": "Positions & headcount",
+        "legend": "Which positions are you filling?"
+      },
+      "timeline": {
+        "title": "Timeline",
+        "legend": "When do you need the workers?"
+      },
+      "contact": {
+        "title": "Contact details",
+        "legend": "How can we reach you?"
+      }
+    },
+    "industries": {
+      "hospitality": "Hospitality & food service",
+      "logistics": "Logistics & transport",
+      "construction": "Construction",
+      "other": "Something else"
+    },
+    "industryHints": {
+      "hospitality": "Cooks, waiters, housekeepers…",
+      "logistics": "Drivers, couriers, mechanics…",
+      "construction": "Bricklayers, metalworkers, rebar fixers…",
+      "other": "Describe the position in the next step"
+    },
+    "positionsHint": "You can pick several positions.",
+    "otherPosition": "Other position",
+    "otherPositionPlaceholder": "Type the position",
+    "count": "Number of workers",
+    "decrease": "Decrease number of workers",
+    "increase": "Increase number of workers",
+    "country": "Preferred country of origin",
+    "optional": "optional",
+    "countries": {
+      "none": "No preference",
+      "nepal": "Nepal",
+      "indonesia": "Indonesia",
+      "uzbekistan": "Uzbekistan",
+      "kenya": "Kenya",
+      "uae": "UAE",
+      "india": "India"
+    },
+    "timelines": {
+      "asap": "As soon as possible",
+      "1-2": "In 1–2 months",
+      "3-6": "In 3–6 months",
+      "season": "Planning for the season"
+    },
+    "timelineHints": {
+      "asap": "The process takes 30–60 days from candidate selection — get in touch now so we can check feasibility.",
+      "other": "Great, there's enough time for careful selection."
+    },
+    "fields": {
+      "name": "Full name",
+      "company": "Company",
+      "city": "City",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "messagePlaceholder": "Accommodation, shifts, special requirements…",
+      "consent": "I agree to the processing of my data in line with the <link>Privacy policy</link>",
+      "honeypot": "Leave this field empty"
+    },
+    "errors": {
+      "required": "This field is required.",
+      "email": "Enter a valid email address.",
+      "phone": "Enter a valid phone number.",
+      "consent": "Your consent is required.",
+      "positions": "Choose at least one position.",
+      "count": "Enter a number between 1 and 100."
+    },
+    "summary": {
+      "title": "Your enquiry",
+      "industry": "Industry",
+      "positions": "Positions",
+      "count": "Workers",
+      "country": "Country",
+      "timeline": "Timeline",
+      "contact": "Contact",
+      "service": "Service",
+      "workers": "{count, plural, one {# worker} other {# workers}}",
+      "sent": "Sent",
+      "perks": {
+        "reply": "Reply within 24h",
+        "guarantee": "90-day replacement guarantee",
+        "free": "No obligation — the offer is free"
+      },
+      "mobileLabel": "Your enquiry",
+      "mobileEmpty": "Nothing selected yet",
+      "expand": "Show full enquiry",
+      "collapse": "Hide enquiry"
+    },
+    "direct": {
+      "title": "Or contact us directly",
+      "whatsapp": "WhatsApp",
+      "viber": "Viber"
+    },
+    "success": {
+      "title": "Thank you, {name}! Your enquiry is in.",
+      "text": "We'll get back to you within 24h.",
+      "again": "Send another enquiry"
+    },
+    "failure": {
+      "title": "Oops — the enquiry wasn't sent.",
+      "text": "Something went wrong while sending. Please try again or call us directly.",
+      "rate": "You've sent several enquiries in a short time. Try again in a few minutes or give us a call.",
+      "retry": "Try again"
+    },
+    "email": {
+      "subject": "New enquiry: {company} — {industry}",
+      "heading": "New enquiry from the website",
+      "service": "Service (from site)",
+      "message": "Message",
+      "locale": "Site language",
+      "replySubject": "We've received your enquiry — Superecruiter",
+      "replyGreeting": "Dear {name},",
+      "replyBody": "thank you for your enquiry. We'll get back to you within 24h with a plan and an offer.",
+      "replySignature": "The Superecruiter team"
+    }
+  },
+  "Footer": {
+    "description": "Foreign worker recruitment agency. Selection, visas and permits — all in one place.",
+    "social": "Social media",
+    "columns": {
+      "nav": "Navigation",
+      "industries": "Industries",
+      "contact": "Contact"
+    },
+    "nav": {
+      "services": "Services",
+      "industries": "Industries",
+      "process": "How we work",
+      "network": "Network",
+      "references": "References",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "hours": "Mon–Fri 09–17h",
+    "copyright": "© {year} Superecruiter. All rights reserved.",
+    "pib": "Tax ID: TODO",
+    "mb": "Reg. no.: TODO",
+    "license": "Employment agency licence no. TODO",
+    "legal": {
+      "privacy": "Privacy policy",
+      "terms": "Terms of use",
+      "cookies": "Cookies"
+    },
+    "toTop": "Back to top"
+  },
+  "Legal": {
+    "pending": "Content coming soon",
+    "pendingText": "This page will be available soon. For any questions, write to us at {email}.",
+    "back": "Back to home",
+    "privacy": {
+      "title": "Privacy policy"
+    },
+    "terms": {
+      "title": "Terms of use"
+    }
+  }
+}
