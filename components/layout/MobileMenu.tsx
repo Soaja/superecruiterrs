@@ -94,7 +94,7 @@ export function MobileMenu({ open, onClose }: { open: boolean; onClose: () => vo
       {/* Decorative warm glow */}
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-32 -bottom-32 size-[28rem] rounded-full bg-peach/60 blur-3xl"
+        className="pointer-events-none absolute -right-40 -bottom-40 size-[36rem] rounded-full bg-[radial-gradient(closest-side,rgb(255_217_194/0.75),transparent)]"
       />
       <Container className="relative flex flex-1 flex-col justify-between gap-10 pt-6 pb-8">
         <nav aria-label={t("navLabel")}>

@@ -119,7 +119,7 @@ export function Hero() {
     <section ref={root} aria-labelledby="hero-title" className="relative overflow-hidden">
       {/* Ambient warmth */}
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-20">
-        <div className="absolute -top-48 -left-40 size-[32rem] rounded-full bg-peach/35 blur-[110px]" />
+        <div className="absolute -top-64 -left-56 size-[44rem] rounded-full bg-[radial-gradient(closest-side,rgb(255_217_194/0.45),transparent)]" />
       </div>
 
       <Container className="grid items-center gap-10 pt-[calc(var(--header-h)+2rem)] pb-8 sm:gap-12 sm:pt-[calc(var(--header-h)+3rem)] lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-6 lg:pt-[calc(var(--header-h)+2.5rem)] lg:pb-12 xl:gap-10">

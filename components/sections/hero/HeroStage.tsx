@@ -177,7 +177,8 @@ export function HeroStage() {
     <div data-stage className="relative mx-auto w-full max-w-[34rem] lg:mr-0 lg:max-w-[33rem] xl:max-w-[36rem]">
       {/* Depth: blob + dotted pattern behind the photo */}
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
-        <div className="absolute top-[12%] left-[18%] h-[78%] w-[78%] animate-[spin_48s_linear_infinite] rounded-[42%_58%_55%_45%/48%_42%_58%_52%] bg-gradient-to-br from-brand/45 via-peach to-peach/40 blur-3xl motion-reduce:animate-none" />
+        {/* Soft glow as a gradient (a rotating blur filter was very slow on iOS) */}
+        <div className="absolute -top-[4%] left-[2%] h-[110%] w-[110%] bg-[radial-gradient(closest-side,rgb(255_106_26/0.32),rgb(255_217_194/0.45)_55%,transparent)]" />
         <div className="absolute -top-4 -right-2 h-1/2 w-2/3 bg-[radial-gradient(var(--ink)_1.1px,transparent_1.6px)] [mask-image:radial-gradient(closest-side,#000,transparent)] bg-[length:14px_14px] opacity-25" />
         <div className="absolute -bottom-6 -left-2 h-2/5 w-1/2 bg-[radial-gradient(var(--brand)_1.1px,transparent_1.6px)] [mask-image:radial-gradient(closest-side,#000,transparent)] bg-[length:14px_14px] opacity-40" />
       </div>

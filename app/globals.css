@@ -120,6 +120,17 @@ svg.lucide {
   stroke-width: 1.75;
 }
 
+/* Phones/tablets: no live "frosted glass". backdrop-filter is re-rendered
+   by iOS Safari on every frame/scroll and dozens of them (some animated, in
+   marquees) made the page take ~30s to appear. Glass surfaces are nearly
+   opaque anyway. The header keeps its blur. */
+@media (max-width: 1023px) {
+  :where(body) *:not([data-keep-blur]) {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+}
+
 /* Section rhythm: 72px mobile → 96px tablet → 120px desktop */
 @utility section-y {
   padding-block: 4.5rem;
@@ -233,9 +244,11 @@ html.lenis body {
   inset: 0;
   pointer-events: none;
   border-radius: inherit;
-  opacity: 0.09;
-  mix-blend-mode: soft-light;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  /* Static PNG tile — a live SVG feTurbulence filter + blend mode over
+     thousands of pixels made iOS Safari extremely slow to render. */
+  opacity: 0.16;
+  background-image: url("/grain.png");
+  background-size: 120px 120px;
 }
 
 @keyframes reveal-failsafe {

@@ -68,6 +68,7 @@ export function Header() {
       >
         <div
           aria-hidden
+          data-keep-blur
           className={cn(
             "absolute inset-x-0 top-3 bottom-0 border-b border-line bg-cream/80 backdrop-blur-xl backdrop-saturate-150 transition-opacity duration-500",
             compact ? "opacity-100" : "opacity-0",
