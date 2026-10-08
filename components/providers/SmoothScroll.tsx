@@ -25,6 +25,11 @@ function LenisGsapBridge() {
     return () => gsap.ticker.remove(tick);
   }, [lenis]);
 
+  // Marks hydration — disables the CSS reveal fail-safe (see globals.css).
+  useEffect(() => {
+    document.documentElement.setAttribute("data-hydrated", "");
+  }, []);
+
   // Keep trigger positions correct as late content settles: fonts, the
   // window load event and every lazily loaded image (debounced).
   useEffect(() => {

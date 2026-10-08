@@ -158,6 +158,12 @@ html.lenis body {
   [data-reveal] {
     opacity: 0;
   }
+  /* Fail-safe: if JS hasn't hydrated within 3s (slow phone, blocked script,
+     error), fade the content in anyway. Once hydrated (<html data-hydrated>),
+     this rule stops matching and GSAP takes over. */
+  html:not([data-hydrated]) [data-reveal] {
+    animation: reveal-failsafe 0.6s ease-out 3s forwards;
+  }
   [data-arc] {
     stroke-dashoffset: 1;
   }
@@ -211,6 +217,12 @@ html.lenis body {
   opacity: 0.09;
   mix-blend-mode: soft-light;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+@keyframes reveal-failsafe {
+  to {
+    opacity: 1;
+  }
 }
 
 /* Infinite marquee: track holds two identical lists, slides by half */

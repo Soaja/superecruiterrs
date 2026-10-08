@@ -7,6 +7,10 @@ const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 const nextConfig: NextConfig = {
   // Pin the workspace root (a stray lockfile exists in the home directory).
   turbopack: { root: path.resolve(".") },
+  // Dev only: allow testing from a phone on the local network
+  // (e.g. http://192.168.0.15:3000) — otherwise Next blocks its dev assets
+  // and the page never hydrates.
+  allowedDevOrigins: ["192.168.*.*", "10.*.*.*", "*.local"],
   images: {
     formats: ["image/avif", "image/webp"],
     // TODO: temporary Unsplash photos — remove once real client photos are in /public.
