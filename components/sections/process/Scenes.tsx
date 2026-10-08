@@ -105,7 +105,7 @@ function SelectionScene() {
               {c.initials}
             </span>
             <div className="min-w-0 flex-1">
-              <p className="flex items-center gap-1.5 text-sm font-semibold">
+              <p className="flex items-center gap-1.5 text-sm font-semibold whitespace-nowrap">
                 {c.name} <Flag code={c.country} />
               </p>
               <p className="truncate text-xs text-muted">
@@ -114,10 +114,11 @@ function SelectionScene() {
             </div>
             <span
               data-stamp
-              className="inline-flex shrink-0 items-center gap-1 rounded-full bg-emerald-50 px-2 py-1 text-[0.6875rem] font-semibold text-emerald-800 ring-1 ring-emerald-600/20"
+              className="inline-flex shrink-0 items-center gap-1 rounded-full bg-emerald-50 p-1.5 text-[0.6875rem] font-semibold text-emerald-800 ring-1 ring-emerald-600/20 sm:px-2 sm:py-1"
             >
-              <BadgeCheck className="size-3.5" />
-              {t("verified")}
+              <BadgeCheck className="size-4 sm:size-3.5" />
+              {/* Icon-only on phones so names get the room */}
+              <span className="hidden sm:inline">{t("verified")}</span>
             </span>
           </li>
         ))}

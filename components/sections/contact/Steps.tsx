@@ -89,11 +89,16 @@ export function StepIndustry({ data, set, onPicked }: StepProps & { onPicked: ()
         value="other"
         checked={data.industry === "other"}
         onChange={() => pick("other")}
-        className="mt-3 inline-flex items-center gap-2.5 px-4 py-2.5 text-sm font-semibold"
+        className="mt-3 flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-semibold sm:inline-flex sm:rounded-full sm:py-2.5"
       >
-        <Sparkles aria-hidden className="size-4 text-brand" />
-        {t("industries.other")}
-        <span className="font-normal text-muted-dark">— {t("industryHints.other")}</span>
+        <Sparkles aria-hidden className="size-4 shrink-0 text-brand" />
+        <span className="flex flex-col sm:flex-row sm:gap-1.5">
+          {t("industries.other")}
+          <span className="font-normal text-muted-dark">
+            <span className="hidden sm:inline">— </span>
+            {t("industryHints.other")}
+          </span>
+        </span>
       </Choice>
     </fieldset>
   );

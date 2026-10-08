@@ -360,7 +360,7 @@ export function Industries() {
             data-ind-slide
             data-reveal
             aria-labelledby={`industry-m-${industry.key}`}
-            className="relative flex min-h-[30rem] w-[86%] shrink-0 snap-start flex-col justify-end overflow-hidden rounded-card bg-ink p-5 pt-28 shadow-lift sm:w-[62%] sm:p-7"
+            className="relative flex min-h-[30rem] w-[86%] shrink-0 snap-start flex-col justify-between gap-8 overflow-hidden rounded-card bg-ink p-5 shadow-lift sm:w-[62%] sm:p-7"
           >
             <Image
               src={industry.photo}
@@ -371,7 +371,7 @@ export function Industries() {
               style={{ objectPosition: industry.focus }}
             />
             <div aria-hidden className={overlay} />
-            <div className="absolute top-4 right-4 z-10 origin-top-right scale-90 sm:scale-100">
+            <div className="relative z-10 -mt-1 -mr-1 self-end">
               <IndustryCard industry={industry.key} />
             </div>
             <div className="relative z-10">

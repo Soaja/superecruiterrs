@@ -280,7 +280,7 @@ export function Process() {
           </div>
           <ol data-proc-mlist aria-label={t("stepsLabel")} className="space-y-16 sm:space-y-20">
             {SCENE_KEYS.map((key, i) => (
-              <li key={key} className="relative pl-10 sm:pl-14">
+              <li key={key} className="relative pl-8 sm:pl-14">
                 <span aria-hidden className="absolute top-3 left-0 size-4 rounded-full border-2 border-brand bg-ink" />
                 <StepNumber i={i} filled className="text-5xl sm:text-6xl" />
                 <h3 className="mt-3 text-h3 font-semibold text-cream">{t(`steps.${key}.title`)}</h3>
@@ -288,7 +288,7 @@ export function Process() {
                 <div
                   aria-hidden
                   data-mscene
-                  className={cn(glassDark, "relative mt-6 grid min-h-[24rem] place-items-center overflow-hidden rounded-card px-5 py-10 sm:px-10")}
+                  className={cn(glassDark, "relative mt-6 grid min-h-[24rem] place-items-center overflow-hidden rounded-card px-4 py-10 sm:px-10")}
                 >
                   <div aria-hidden className="absolute inset-0 bg-[radial-gradient(120%_80%_at_50%_0%,rgb(255_106_26/0.12),transparent_60%)]" />
                   <div data-scene className="relative grid w-full place-items-center">

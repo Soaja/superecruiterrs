@@ -150,6 +150,9 @@ export function MobileSummaryBar({ data, visited, sent }: { data: FormState; vis
     visited >= 1 && t("summary.workers", { count: data.count }),
   ].filter(Boolean);
 
+  // Nothing chosen yet → no bar (an empty "nothing selected" bar just covers content)
+  if (!data.industry && !sent) return null;
+
   return (
     <div className="sticky bottom-3 z-20 mt-4 lg:hidden">
       {open && (
