@@ -65,6 +65,7 @@ export function RotatingWord({
 
       measure();
       applyStatic();
+      pill.setAttribute("data-ready", ""); // JS geometry in place → drop CSS fallback
 
       const ro = new ResizeObserver(() => {
         measure();

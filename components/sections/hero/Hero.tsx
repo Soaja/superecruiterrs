@@ -41,19 +41,9 @@ export function Hero() {
 
       mm.add(MOTION_QUERIES.motion, () => {
         // ---------- Entrance ----------
-        const tl = gsap.timeline({ defaults: { ease: EASE.out }, delay: 0.1 });
-
-        // Text and the photo animate via CSS (.hero-rise / .hero-line /
-        // .hero-photo in globals.css) so they start at first paint — the hero
-        // photo is the mobile LCP element and must not wait for hydration.
-        tl.fromTo(
-            "[data-fc-pop]",
-            { autoAlpha: 0, scale: 0.82, y: 14 },
-            { autoAlpha: 1, scale: 1, y: 0, duration: 0.7, stagger: 0.15, ease: "back.out(1.8)" },
-            1.35,
-          )
-          .fromTo("[data-arrival-bar]", { scaleX: 0 }, { scaleX: 1, duration: 1.2, ease: EASE.inOut }, 1.9)
-          .fromTo("[data-hero-strip]", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.8 }, 1.4);
+        // The whole hero entrance (text, photo, floating cards, partner strip)
+        // is CSS (.hero-* in globals.css): it plays from first paint and never
+        // waits for JS — on slow phones hydration can take several seconds.
 
         // ---------- Idle float (each card on its own period) ----------
         gsap.utils.toArray<HTMLElement>("[data-fc-idle]").forEach((el, i) => {

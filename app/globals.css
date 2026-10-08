@@ -192,7 +192,26 @@ html.lenis body {
     clip-path: inset(0% 0% 0% 0% round 32px);
   }
 }
+@keyframes hero-pop {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.82);
+  }
+}
+@keyframes hero-bar {
+  from {
+    transform: scaleX(0);
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
+  .hero-pop {
+    /* ≈ back.out — slight overshoot */
+    animation: hero-pop 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    animation-delay: var(--d, 0s);
+  }
+  .hero-bar {
+    animation: hero-bar 1.2s cubic-bezier(0.645, 0.045, 0.355, 1) 1.9s both;
+  }
   .hero-photo {
     /* power3.inOut */
     animation: hero-photo 1.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.45s both;
@@ -223,6 +242,24 @@ html.lenis body {
   to {
     opacity: 1;
   }
+}
+
+/* Rotating-word pill before JS has measured it: the reserved width fits the
+   longest word, so draw the pill around the first (visible) word instead. */
+[data-pill]:not([data-ready]) [data-pill-bg] {
+  opacity: 0;
+}
+[data-pill]:not([data-ready]) [data-pill-bg] + [data-pill-word] {
+  margin: -0.04em -0.32em;
+  padding: 0.04em 0.32em;
+  border-radius: 999px;
+  background: var(--brand);
+}
+
+/* …and let only the first pronoun ("vaš") take up width, so there's no gap
+   reserved for the longest one ("vaše"). */
+:has(> [data-pill]:not([data-ready])) [data-pronoun].invisible {
+  position: absolute;
 }
 
 /* Infinite marquee: track holds two identical lists, slides by half */

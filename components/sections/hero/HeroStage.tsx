@@ -24,8 +24,11 @@ function Floating({
   depth,
   float,
   scroll,
+  order,
 }: {
   children: ReactNode;
+  /** Pop-in order (stagger). */
+  order: number;
   className?: string;
   /** Mouse parallax strength (0–1). */
   depth: number;
@@ -38,7 +41,7 @@ function Floating({
     <div data-fc-scroll={scroll} className={cn("absolute z-10", className)}>
       <div data-fc-mouse={depth}>
         <div data-fc-idle={float}>
-          <div data-reveal data-fc-pop>
+          <div className="hero-pop" style={{ "--d": `${1.1 + order * 0.15}s` } as React.CSSProperties}>
             {children}
           </div>
         </div>
@@ -151,7 +154,7 @@ function ArrivalCard() {
         </div>
       </div>
       <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-ink/10">
-        <div data-arrival-bar className="h-full w-[68%] origin-left rounded-full bg-brand" />
+        <div data-arrival-bar className="hero-bar h-full w-[68%] origin-left rounded-full bg-brand" />
       </div>
     </div>
   );
@@ -203,16 +206,16 @@ export function HeroStage() {
       </div>
 
       {/* Floating UI — mobile shows 2 cards (candidate + visa), sm+ shows all 4 */}
-      <Floating depth={0.9} float={4.6} scroll={-70} className="top-[4%] left-0 sm:top-[9%]">
+      <Floating order={0} depth={0.9} float={4.6} scroll={-70} className="top-[4%] left-0 sm:top-[9%]">
         <CandidateCard />
       </Floating>
-      <Floating depth={0.5} float={5.4} scroll={-40} className="top-[2%] right-[6%] hidden sm:block lg:right-[2%]">
+      <Floating order={1} depth={0.5} float={5.4} scroll={-40} className="top-[2%] right-[6%] hidden sm:block lg:right-[2%]">
         <GuaranteePill />
       </Floating>
-      <Floating depth={0.7} float={5} scroll={30} className="right-0 bottom-[6%] sm:top-[44%] sm:bottom-auto lg:-right-[2%]">
+      <Floating order={2} depth={0.7} float={5} scroll={30} className="right-0 bottom-[6%] sm:top-[44%] sm:bottom-auto lg:-right-[2%]">
         <VisaCard />
       </Floating>
-      <Floating depth={1} float={4.2} scroll={80} className="bottom-[4%] left-[2%] hidden sm:block">
+      <Floating order={3} depth={1} float={4.2} scroll={80} className="bottom-[4%] left-[2%] hidden sm:block">
         <ArrivalCard />
       </Floating>
     </div>

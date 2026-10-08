@@ -9,7 +9,7 @@ export function PartnerStrip() {
   const t = useTranslations("Hero.partners");
   // TODO: verify worker profiles per country with the client (Hero.partners.countries).
   return (
-    <div data-reveal data-hero-strip className="pb-6 sm:pb-10">
+    <div className="hero-rise pb-6 sm:pb-10" style={{ "--d": "1.2s" } as React.CSSProperties}>
       <p className="px-4 text-center text-[0.6875rem] font-semibold tracking-[0.1em] text-muted uppercase sm:text-xs sm:tracking-[0.16em]">
         {t("label")}
       </p>
